@@ -1,0 +1,19 @@
+<!-- Modellizzare (descriviamo come abbiamo fatto in classe) la struttura di una tabella 
+per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+Potete usare diagram ed esportare il file in formato pdf o scrivere un txt e poi inserirlo nella repo. -->
+
+
+[CARS]
+ID - INT AUTOINCREMENT NOT NULL UNIQUE - PRIMARY KEY 
+Brand - VARCHAR(100) NOT NULL
+Modello - VARCHAR(100) NOT NULL
+Colore - VARCHAR(100)
+Alimentazione - VARCHAR(100) NOT NULL
+Chilometraggio - MEDIUMINT NOT NULL
+Porte - TINYINT
+Cavalli - MEDIUMINT
+Caratteristiche auto TEXT NOT NULL
+N proprietari TINYINT
+Condizioni TEXT NOT NULL
+Foto VARCHAR(255) DEFAULT
+Prezzo FLOAT (8,2) (ES 100.000,00) NOT NULL
