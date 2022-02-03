@@ -13,8 +13,8 @@ Alimentazione - VARCHAR(100) NOT NULL
 Chilometraggio - MEDIUMINT NOT NULL
 Porte - TINYINT
 Cavalli - MEDIUMINT
-Caratteristiche auto TEXT NOT NULL
-N proprietari TINYINT
-Condizioni TEXT NOT NULL
-Foto VARCHAR(255) DEFAULT
-Prezzo FLOAT (8,2) (ES 100.000,00) NOT NULL
+CaratteristicheAuto - TEXT NOT NULL
+nProprietari -TINYINT
+Condizioni - TEXT NOT NULL
+Foto - VARCHAR(255) DEFAULT
+Prezzo - FLOAT (8,2) (ES 100.000,00) NOT NULL
